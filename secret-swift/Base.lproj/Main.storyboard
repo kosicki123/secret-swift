@@ -16,29 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2Z-Zv-7Rs">
-                                <rect key="frame" x="250" y="278" width="100" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="2Kd-2Y-rzH"/>
-                                </constraints>
-                                <state key="normal" title="Authenticate"/>
-                            </button>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cSI-ZN-ENe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2Z-Zv-7Rs">
+                                <rect key="frame" x="250" y="278" width="100" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="CtK-Jw-YaF"/>
+                                </constraints>
+                                <state key="normal" title="Authenticate"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="centerX" secondItem="D2Z-Zv-7Rs" secondAttribute="centerX" id="36p-bC-pS9"/>
-                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="centerY" secondItem="D2Z-Zv-7Rs" secondAttribute="centerY" id="7o5-KW-lLz"/>
-                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="JWU-P8-jdg"/>
-                            <constraint firstAttribute="trailing" secondItem="cSI-ZN-ENe" secondAttribute="trailing" id="N9D-8v-OEl"/>
-                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Rue-BY-VGy"/>
-                            <constraint firstItem="D2Z-Zv-7Rs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="258" id="cYV-vh-Y4w"/>
-                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eGa-5f-AlQ"/>
+                            <constraint firstAttribute="trailing" secondItem="cSI-ZN-ENe" secondAttribute="trailing" id="8xU-Ve-tuh"/>
+                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="If2-Pa-zjL"/>
+                            <constraint firstItem="D2Z-Zv-7Rs" firstAttribute="centerY" secondItem="cSI-ZN-ENe" secondAttribute="centerY" id="inK-iA-cQN"/>
+                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="oKy-pY-WDh"/>
+                            <constraint firstItem="cSI-ZN-ENe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tuQ-Wz-hbu"/>
+                            <constraint firstItem="D2Z-Zv-7Rs" firstAttribute="centerX" secondItem="cSI-ZN-ENe" secondAttribute="centerX" id="vl8-4i-MUT"/>
+                            <constraint firstItem="D2Z-Zv-7Rs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="214" id="woV-Ma-hWN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LaN-ON-agQ"/>
