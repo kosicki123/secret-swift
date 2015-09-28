@@ -28,6 +28,9 @@
                                     <constraint firstAttribute="width" constant="100" id="CtK-Jw-YaF"/>
                                 </constraints>
                                 <state key="normal" title="Authenticate"/>
+                                <connections>
+                                    <action selector="authenticateUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vmv-HB-hxa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -42,6 +45,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LaN-ON-agQ"/>
+                    <connections>
+                        <outlet property="secret" destination="cSI-ZN-ENe" id="6Zy-7M-qhm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
